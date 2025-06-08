@@ -1,9 +1,9 @@
 from datetime import datetime,timedelta
 
 def display_current_datetime():
-    return datetime.today().replace(microsecond=0)
+    return datetime.now()
 
-current_date = display_current_datetime()
+current_date = display_current_datetime().replace(microsecond=0)
 print(f"Current date and time: {current_date}")
 
 number_of_days = int(input("Enter the number of days to add to the current date: "))
