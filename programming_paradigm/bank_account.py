@@ -13,4 +13,4 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        print(f"Current Balance: ${self.Balance}")
+        print(f"Current Balance: ${round(self.Balance,2)}")
