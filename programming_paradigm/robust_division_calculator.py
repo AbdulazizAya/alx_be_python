@@ -14,4 +14,4 @@ def safe_divide(numerator,denominator):
         return "Error: Cannot divide by zero."
     
     else:
-        return (numerator / denominator)
+        return (float(numerator) / float(denominator))
