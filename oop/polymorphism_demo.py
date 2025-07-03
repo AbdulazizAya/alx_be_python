@@ -1,9 +1,9 @@
 import math
-class shape:
+class Shape:
     def area(self):
         pass
 
-class Rectangle(shape):
+class Rectangle(Shape):
     def __init__(self,length,width):
         self.length = length
         self.width = width
@@ -11,7 +11,7 @@ class Rectangle(shape):
     def area(self):
         return self.length * self.width
 
-class Circle(shape):
+class Circle(Shape):
     def __init__(self,radius):
         self.radius = radius
     
